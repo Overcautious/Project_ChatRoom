@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>聊天窗口</string>
+  </property>
+  <widget class="QPushButton" name="SendTextPushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送文本</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="ContentListWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>341</width>
+     <height>281</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="InputTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>341</width>
+     <height>81</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_notice">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>30</y>
+     <width>256</width>
+     <height>201</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_online">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>260</y>
+     <width>251</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_onlineNums">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>240</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前在线人数</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_userInfo">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用户</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_notice">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>公告</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
